@@ -1,0 +1,65 @@
+{
+  "marketResearch": {
+    "basePath": "../unson-os-market-research/pb000_deliverables/executions",
+    "defaultExecution": "exec_20250925_mcp_auto_complete",
+    "files": {
+      "personaProfiles": "persona_profiles.md",
+      "personaInsights": "persona_insights.json",
+      "issueAnalysis": "issue_analysis.md",
+      "solutionIdeas": "solution_ideas.md",
+      "competitiveAnalysis": "competitive_analysis.md",
+      "finalPositioning": "final_positioning.md",
+      "executiveSummary": "executive_summary.md"
+    }
+  },
+  "output": {
+    "basePath": "./output",
+    "personas": {
+      "education": "./output/education",
+      "freelancer": "./output/freelancer",
+      "enterprise": "./output/enterprise",
+      "social": "./output/social"
+    }
+  },
+  "assets": {
+    "basePath": "./assets",
+    "images": "./assets/images",
+    "videos": "./assets/videos",
+    "audio": "./assets/audio",
+    "fonts": "./assets/fonts"
+  },
+  "templates": {
+    "basePath": "./src/templates"
+  },
+  "video": {
+    "formats": {
+      "promo": {
+        "duration": 60,
+        "resolution": "1920x1080",
+        "fps": 30
+      },
+      "demo": {
+        "duration": 45,
+        "resolution": "1920x1080",
+        "fps": 30
+      },
+      "social": {
+        "instagram": {
+          "duration": 30,
+          "resolution": "1080x1920",
+          "fps": 30
+        },
+        "youtube": {
+          "duration": 60,
+          "resolution": "1920x1080",
+          "fps": 30
+        },
+        "twitter": {
+          "duration": 30,
+          "resolution": "1280x720",
+          "fps": 30
+        }
+      }
+    }
+  }
+}

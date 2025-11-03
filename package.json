@@ -1,0 +1,36 @@
+{
+  "name": "unson-os-create-movie",
+  "version": "0.1.0",
+  "description": "動画自動生成システム - unson-os-market-researchの市場調査結果から動画コンテンツを自動生成",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "generate": "node src/index.js generate",
+    "storyboard": "node src/index.js storyboard",
+    "script": "node src/index.js script",
+    "preview": "node src/index.js preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unson-LLC/unson-os-create-movie.git"
+  },
+  "keywords": [
+    "video-generation",
+    "automation",
+    "market-research",
+    "persona",
+    "movie-generator",
+    "storyboard",
+    "narration"
+  ],
+  "author": "Unson LLC",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Unson-LLC/unson-os-create-movie/issues"
+  },
+  "homepage": "https://github.com/Unson-LLC/unson-os-create-movie#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
